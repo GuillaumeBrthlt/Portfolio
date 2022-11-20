@@ -43,13 +43,6 @@ const ModalThree = ({modalId,setGetModal}) => {
                           </span>
                         </div>
                         <div className="col-12 col-sm-6 mb-2">
-                          <i className="fa fa-user-o pr-2"></i>
-                          Client :{" "}
-                          <span className="ft-wt-600 uppercase">
-                            {details.client}
-                          </span>
-                        </div>
-                        <div className="col-12 col-sm-6 mb-2">
                           <i className="fa fa-code pr-2"></i>
                           Language :{" "}
                           <span className="ft-wt-600 uppercase">
@@ -72,18 +65,21 @@ const ModalThree = ({modalId,setGetModal}) => {
                     );
                   })}
                 </div>
+                <div>
+                  <p>Description:</p> 
+                  <p>
+                    The project was a project realized during the first 3 months of the bootcamp &quot;the hacking project&quot;.
+                    It was using the framework Ruby on Rails and was initially deployed on heroku.
+                    <br />
+                    This website represent a cat images e-shop on which we connected the stripe API.
+                    <br />
+                    You will find more details on the repository.
+                  </p>
+                </div>
                 <figure className="modal__img">
-                  <Slider {...settings}>
                     <div>
                       <Image src={item.image} alt="portfolio project demo" />
                     </div>
-                    <div>
-                      <Image src={img1} alt="portfolio project demo" />
-                    </div>
-                    <div>
-                      <Image src={img2} alt="portfolio project demo" />
-                    </div>
-                  </Slider>
                 </figure>
 
                 <button

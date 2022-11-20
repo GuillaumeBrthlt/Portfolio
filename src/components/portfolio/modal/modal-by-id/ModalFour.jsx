@@ -28,13 +28,6 @@ const ModalFour = ({ modalId, setGetModal }) => {
                         </span>
                       </div>
                       <div className="col-12 col-sm-6 mb-2">
-                        <i className="fa fa-user-o pr-2"></i>
-                        Client :{" "}
-                        <span className="ft-wt-600 uppercase">
-                          {details.client}
-                        </span>
-                      </div>
-                      <div className="col-12 col-sm-6 mb-2">
                         <i className="fa fa-code pr-2"></i>
                         Language :{" "}
                         <span className="ft-wt-600 uppercase">
@@ -57,17 +50,17 @@ const ModalFour = ({ modalId, setGetModal }) => {
                   );
                 })}
               </div>
+              <div>
+                <p>Description:</p> 
+                <p>
+                  The project will be the final project of the bootcamp &quot;The Hacking Project&quot;.
+                  It will be realized from the 5th of december to the 16th of december.
+                </p>
+              </div>
               <figure className="modal__img">
-                {/* <img src={item.image} alt="portfolio project demo" /> */}
-                <video
-                  id="video"
-                  className="responsive-video"
-                  controls
-                  poster={item.image}
-                >
-                  <source src={'/assets/img/portfolio/video.mp4'} type="video/mp4" />
-                  {/* <source src="img/" type="video/mp4" /> */}
-                </video>
+                <div>
+                  <Image src={item.image} alt="portfolio project demo" />
+                </div>
               </figure>
 
               <button
