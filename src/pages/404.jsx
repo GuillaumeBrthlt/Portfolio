@@ -16,7 +16,7 @@ const NotFound = () => {
             404!
           </h1>
           <p data-aos="fade-up" data-aos-duration="1200" data-aos-delay="50">
-            The page you are looking for could not be found.
+            La page que vous recherchez n&apos;a pas pu être trouvée.
           </p>
 
           <div
@@ -25,7 +25,7 @@ const NotFound = () => {
             data-aos-duration="1200"
             data-aos-delay="100"
           >
-            <Link href="/">BACK TO HOME</Link>
+            <Link href="/">Retour à l&apos;accueil</Link>
           </div>
           {/* End purchase_button */}
         </div>

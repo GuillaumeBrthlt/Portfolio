@@ -2,23 +2,23 @@ import React from "react";
 
 const educationContent = [
   {
-    year: "2022",
+    year: "6 mois",
     degree: "BOOTCAMP DEV",
     institute: "The hacking project",
-    details: `6 months bootcamp where I learned for the first 3 months to code in HTML, CSS, bases of Javascript, and to use the framework RUBY ON RAILS.
-    During the next 3 months, the focus was put on frontend and I learned how to use the library REACT JS.`,
+    details: `6 mois de formation intensive où j'ai appris durant les 3 premiers mois les langages HTML, CSS, des bases de Javascript, et à utiliser le framework RUBY ON RAILS.
+    Pendant les 3 mois suivants, l'accent a été mis sur le frontend et j'ai appris à utiliser la bibliothèque REACT JS.`,
   },
   {
-    year: "2013",
-    degree: "BACHELOR DEGREE",
-    institute: "JOSEPH FOURRIER UNIVERSITY, Grenoble(38)",
-    details: `Climatic engineering, specializing in refrigeration and air conditioning`,
+    year: "1 an",
+    degree: "Licence professionnelle",
+    institute: "université JOSEPH FOURRIER, Grenoble(38)",
+    details: `Génie climatique, spécialité froid et conditionnement d'air.`,
   },
   {
-    year: "2012",
-    degree: "BACHELOR DEGREE ",
-    institute: "JOSEPH FOURRIER UNIVERSITY, Grenoble(38)",
-    details: `Speciality thermal and energy engineering`,
+    year: "2 ans",
+    degree: "DUT",
+    institute: "université JOSEPH FOURRIER, Grenoble(38)",
+    details: `Génie thermique et énergie.`,
   },
 ];
 

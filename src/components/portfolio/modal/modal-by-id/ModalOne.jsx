@@ -22,14 +22,14 @@ const ModalOne = ({modalId,setGetModal}) => {
                       <div key={i} className="row open-sans-font">
                         <div className="col-12 col-sm-6 mb-2">
                           <i className="fa fa-file-text-o pr-2"></i>
-                          Project:{" "}
+                          Projet:{" "}
                           <span className="ft-wt-600 uppercase">
                             {details.project}
                           </span>
                         </div>
                         <div className="col-12 col-sm-6 mb-2">
                           <i className="fa fa-code pr-2"></i>
-                          Language :{" "}
+                          Langages :{" "}
                           <span className="ft-wt-600 uppercase">
                             {details.language}
                           </span>
@@ -53,16 +53,22 @@ const ModalOne = ({modalId,setGetModal}) => {
                 <div>
                   <p>Description:</p> 
                   <p>
-                    The goal of the website is to get all the video games coming in the year 2023 
-                    sort by rating using the free version of the API RAWG.
+                    Le but de ce site WEB est de répertorier tous les jeux vidéos au courant de l&apos;année 2023.
+                    Les informations sont collectées en utilisant la version gratuite de l&apos;API RAWG.
                     <br></br>
-                    Many functions were added like the possibility to make a research by name or click on the name
-                    of the video to get its details.
+                    Plusieurs fonctionnalités ont été intégrées telles que la recherche par nom de jeux ou le filtre par platforme.
+                    Il est également possible de cliquer sur le nom d&apos;un jeu pour en connaître les détails.
                   </p>
 
                 </div>
-                <figure className="modal__img">
+                <figure className="modal__img mb-4">
                   <Image src={item.image} alt="portfolio project demo" />
+                </figure>
+                <figure className="modal__img mb-4">
+                  <Image src={item.image_2} alt="portfolio project demo" />
+                </figure>
+                <figure className="modal__img mb-4">
+                  <Image src={item.image_3} alt="portfolio project demo" />
                 </figure>
 
                 <button

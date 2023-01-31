@@ -1,14 +1,11 @@
 // external
 import Image from 'next/image';
 import React from 'react';
-import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 // internal
 import CloseImg from "../../../../../public/assets/img/cancel.svg";
 import PortfolioData from '../../portfolioData';
-import img1 from "../../../../../public/assets/img/portfolio/project-1.jpg";
-import img2 from "../../../../../public/assets/img/portfolio/project-2.jpg";
 
 const ModalThree = ({modalId,setGetModal}) => {
   let settings = {
@@ -37,29 +34,24 @@ const ModalThree = ({modalId,setGetModal}) => {
                       <div key={i} className="row open-sans-font">
                         <div className="col-12 col-sm-6 mb-2">
                           <i className="fa fa-file-text-o pr-2"></i>
-                          Project:{" "}
+                          Projet:{" "}
                           <span className="ft-wt-600 uppercase">
                             {details.project}
                           </span>
                         </div>
                         <div className="col-12 col-sm-6 mb-2">
                           <i className="fa fa-code pr-2"></i>
-                          Language :{" "}
+                          Langage :{" "}
                           <span className="ft-wt-600 uppercase">
                             {details.language}
                           </span>
                         </div>
                         <div className="col-12 col-sm-6 mb-2">
-                          <i className="fa fa-external-link pr-2"></i>
-                          Preview :{" "}
-                          <a
-                            className="preview-link"
-                            target="_blank"
-                            rel="noopener noreferrer nofollow"
-                            href={details.link}
-                          >
-                            {details.preview}
-                          </a>
+                          <i className="fa fa-code pr-2"></i>
+                          Frameworks / Librairies :{" "}
+                          <span className="ft-wt-600 uppercase">
+                            {details.framework}
+                          </span>
                         </div>
                       </div>
                     );
@@ -68,17 +60,30 @@ const ModalThree = ({modalId,setGetModal}) => {
                 <div>
                   <p>Description:</p> 
                   <p>
-                    The project was a project realized during the first 3 months of the bootcamp &quot;the hacking project&quot;.
-                    It was using the framework Ruby on Rails and was initially deployed on heroku.
-                    <br />
-                    This website represent a cat images e-shop on which we connected the stripe API.
-                    <br />
-                    You will find more details on the repository.
+                    Site e-commerce initialement créé pour de la vente de café et de machine à torréfier.
+                    Intégration paypal et stripe pour la gestion des paiements par carte bancaire.
+                    <br/>
+                    Ce site web à été fermé et n&apos;est plus consultable aujourd&apos;hui.
                   </p>
                 </div>
-                <figure className="modal__img">
+                <figure className="modal__img mb-4">
                     <div>
                       <Image src={item.image} alt="portfolio project demo" />
+                    </div>
+                </figure>
+                <figure className="modal__img mb-4">
+                    <div>
+                      <Image src={item.image_2} alt="portfolio project demo" />
+                    </div>
+                </figure>
+                <figure className="modal__img mb-4">
+                    <div>
+                      <Image src={item.image_3} alt="portfolio project demo" />
+                    </div>
+                </figure>
+                <figure className="modal__img mb-4">
+                    <div>
+                      <Image src={item.image_4} alt="portfolio project demo" />
                     </div>
                 </figure>
 
