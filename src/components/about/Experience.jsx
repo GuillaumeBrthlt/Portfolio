@@ -2,23 +2,28 @@ import React from "react";
 
 const experienceContent = [
   {
-    year: "   2018 - 2021",
-    position: " National Sales Manager",
+    year: "Actuellement",
+    position: "Developpeur FULLSTACK",
+    compnayName: "A mon compte",
+    details: `Réalisation de sites et applications WEB -- Ruby on Rails / React JS.`,
+  },
+  {
+    year: "3 ans",
+    position: "Responsable national des ventes",
     compnayName: "Carel France",
-    details: `I was in charge of developping the business with wholsalers in France, Belgium and Luxembourg.`,
+    details: `Responsabilité commerciale des secteurs France, Belgique et Luxembourg.`,
   },
   {
-    year: "2017 - 2018",
-    position: " technical sales representative",
+    year: "18 mois",
+    position: "technico-commercial",
     compnayName: "LE FROID PECOMARK",
-    details: `I was in charge of customer service, design and sizing of refrigeration systems, and technical assistance `,
+    details: `Étude et conception, service client, chiffrage.`,
   },
   {
-    year: "2012 - 2017",
-    position: "technician",
+    year: "5 ans",
+    position: "Metteur au point",
     compnayName: "Axima refrigération",
-    details: `I did the set up on industrial refrigeration systems. I also accompanied the project managers on studies, 
-    sizing, purchasing and monitoring of subcontractors.`,
+    details: `Mise en route d'installations de réfrigération industrielle, études et suivi de chantier.`,
   },
 ];
 

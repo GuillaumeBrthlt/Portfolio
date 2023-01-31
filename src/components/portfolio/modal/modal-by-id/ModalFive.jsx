@@ -21,21 +21,21 @@ const ModalFive = ({modalId,setGetModal}) => {
                       <div key={i} className="row open-sans-font">
                         <div className="col-12 col-sm-6 mb-2">
                           <i className="fa fa-file-text-o pr-2"></i>
-                          Project:{" "}
+                          Projet:{" "}
                           <span className="ft-wt-600 uppercase">
                             {details.project}
                           </span>
                         </div>
                         <div className="col-12 col-sm-6 mb-2">
                           <i className="fa fa-code pr-2"></i>
-                          Language :{" "}
+                          Langage :{" "}
                           <span className="ft-wt-600 uppercase">
                             {details.language}
                           </span>
                         </div>
                         <div className="col-12 col-sm-6 mb-2">
                           <i className="fa fa-code pr-2"></i>
-                          Frameworks/libraries :{" "}
+                          Frameworks / librairies :{" "}
                           <span className="ft-wt-600 uppercase">
                             {details.framework}
                           </span>
@@ -59,21 +59,19 @@ const ModalFive = ({modalId,setGetModal}) => {
                 <div>
                   <p>Description:</p> 
                   <p>
-                    The project was one of the last projects of the bootcamp &quot;the hacking project&quot;.
-                    It was using the framework Ruby on Rails on API mode for the backend and the library Reactjs for the frontend.
+                    Ce projet est un MVP de site d&apos;agence immobilière.
+                    Le framework Ruby on Rails à été utilisé sur le back-end et la librairie React JS sur le front-end.
                     <br /><br />
-                    This website is made for property advertising. One connected, buyers can contact directly the sellers.
-                    After signing up, you can create, modify or delete a property advertising.
-                    <br />
-                    You will find more details on the repository.
+                    Il s&apos;agit d&apos;un site d&apos;annonces immobilières ou le acheteurs peuvent entrer en contact directement avec les propriétaires sous la condition d&apos;y être connecté.
+                    Après inscription, il est possible de contacter un vendeur ou créer, modifier, supprimer une annonce.
                   </p>
 
                 </div>
                 <figure className="modal__img mb-4">
-                  <Image src={item.image} alt="portfolio project demo" />
+                  <Image src={item.image_2} alt="portfolio project demo" />
                 </figure>
                 <figure className="modal__img mb-4">
-                  <Image src={item.image_2} alt="portfolio project demo" />
+                  <Image src={item.image} alt="portfolio project demo" />
                 </figure>
                 <figure className="modal__img mb-4">
                   <Image src={item.image_3} alt="portfolio project demo" />

@@ -18,7 +18,7 @@ const index = () => {
             <div className="row">
               <div className="col-12">
                 <h3 className="text-uppercase custom-title mb-0 ft-wt-600">
-                  personal infos
+                  Informations Personnelles
                 </h3>
               </div>
               {/* End .col */}
@@ -36,14 +36,6 @@ const index = () => {
                 <PersonalInfo />
               </div>
               {/* End personal info */}
-
-              <div className="col-12 mt-1">
-                <a className="button" href='CV.pdf' download>
-                  <span className="button-text">Download CV (french)</span>
-                  <span className="button-icon fa fa-download"></span>
-                </a>
-              </div>
-              {/* End download button */}
             </div>
           </div>
           {/*  Personal Info Ends */}
@@ -62,7 +54,7 @@ const index = () => {
         <div className="row">
           <div className="col-12">
             <h3 className="text-uppercase pb-4 pb-sm-5 mb-3 mb-sm-0 text-start text-sm-center custom-title ft-wt-600">
-              My Skills
+              Mes compétences
             </h3>
           </div>
           <Skills />
@@ -75,7 +67,7 @@ const index = () => {
         <div className="row">
           <div className="col-12">
             <h3 className="text-uppercase pb-5 mb-0 text-start text-sm-center custom-title ft-wt-600">
-              Experience <span>&</span> Education
+              Expérience <span>&</span> Formation
             </h3>
           </div>
           <div className="col-lg-6 m-15px-tb">

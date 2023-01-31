@@ -52,13 +52,12 @@ const ModalTwo = ({modalId,setGetModal}) => {
                 <div>
                   <p>Description:</p> 
                   <p>
-                    The project was the final project of the first 3 months of the bootcamp &quot;the hacking project&quot;.
-                    It was using the framework Ruby on Rails and was initially deployed on heroku.
+                    Ce site web à été un projet réalisé en cours de formation sur le framework Ruby on Rails.
+                    <br /><br />
+                    Le but de ce site web est la mise en relation entre musiciens amateurs et établissements tels que restaurants, bars, hotels,...<br/>
+                    Un établissement peut créer des évènements et les musiciens peuvent y postuler.
+                    Un chat est présent sur le site pour la communication entre musiciens et établissements.
                     <br />
-                    The goal of this web app was to create a link between amateur musicians and venues like restaurants, bars, hotels, ...
-                    who would like to host a show.
-                    <br />
-                    You will find more details on the repository.
                   </p>
 
                 </div>

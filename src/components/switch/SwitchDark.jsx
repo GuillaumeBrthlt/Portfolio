@@ -4,7 +4,7 @@ import lightImage from "../../../public/assets/img/sun.png";
 import handleSwitchValue from "../../../utils/theme";
 
 const SwitchDark = () => {
-  const [isDark, setIsDark] = useState(false);
+  const [isDark, setIsDark] = useState(true);
 
   const handleLabelClick = () => {
     if (isDark) {

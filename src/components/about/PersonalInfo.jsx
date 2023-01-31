@@ -1,14 +1,14 @@
 import React from "react";
 
 const personalInfoContent = [
-  { meta: "first name", metaInfo: "Guillaume", hasColor: "" },
-  { meta: "last name", metaInfo: "BERTHOLET", hasColor: "" },
-  { meta: "Age", metaInfo: "30 Years", hasColor: "" },
-  { meta: "Nationality", metaInfo: "French", hasColor: "" },
-  { meta: "City", metaInfo: "Saint-Priest (69)", hasColor: "" },
-  { meta: "phone", metaInfo: "+33 6 13 30 50 35", hasColor: "" },
-  { meta: "Email", metaInfo: "bertholetguillaume@gmail.com", hasColor: "" },
-  { meta: "langages", metaInfo: "French, English", hasColor: "" },
+  { meta: "prénom", metaInfo: "Guillaume", hasColor: "" },
+  { meta: "Nom", metaInfo: "BERTHOLET", hasColor: "" },
+  { meta: "Âge", metaInfo: "30 ans", hasColor: "" },
+  { meta: "Nationalité", metaInfo: "Français", hasColor: "" },
+  { meta: "Ville", metaInfo: "LYON (69)", hasColor: "" },
+  { meta: "téléphone", metaInfo: "+33 6 13 30 50 35", hasColor: "" },
+  { meta: "E-mail", metaInfo: "bertholetguillaume@gmail.com", hasColor: "" },
+  { meta: "langues", metaInfo: "Français, Anglais", hasColor: "" },
 ];
 
 const PersonalInfo = () => {

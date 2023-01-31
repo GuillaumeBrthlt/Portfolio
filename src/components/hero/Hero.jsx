@@ -9,13 +9,11 @@ const heroContent = {
   heroImage: "/assets/img/hero/dark.jpg",
   heroMobileImage: heroImgMobile,
   heroTitleName: "Guillaume BERTHOLET",
-  heroDesignation: "web developer",
-  heroDescriptions: `I am a Fullstack developer based in France always looking for a new challenge to 
-  create the website/application that will fit your identity and your needs. 
-  My goal will always be to provide the best possible experience to the end users. 
-  Development is a passion I discovered recently and I am convinced I can make the most of 
-  my past experiences combined with my recent knowledge.`,
-  heroBtn: "more about me",
+  heroDesignation: "Développeur WEB",
+  heroDescriptions: `Je suis un développeur Fullstack freelance spécialisé Ruby on Rails / ReactJS. Après avoir travaillé près de 10 ans dans le secteur de la réfrigération,
+  je me suis intéressé au développement dans le but de créer mes propres applications. Fasciné par les infinies possibilités qu'offrent le développement, j'ai finalement choisi
+  d'en faire mon métier et de mettre à votre service mes compétences pour produire un contenu de qualité adapté à vos besoins.`,
+  heroBtn: "En savoir plus",
 };
 
 const Hero = () => {
@@ -40,7 +38,7 @@ const Hero = () => {
               // style={{width:'100%',height:'100%'}}
             />
             <h1 className="text-uppercase poppins-font">
-              {"I'm"} {heroContent.heroTitleName}.
+              {heroContent.heroTitleName}.
               <span>{heroContent.heroDesignation}</span>
             </h1>
             <p className="open-sans-font">{heroContent.heroDescriptions}</p>
@@ -72,9 +70,9 @@ const Hero = () => {
             <div data-aos="fade-up" data-aos-duration="1200">
               <div className="title-section text-start text-sm-center">
                 <h1>
-                  ABOUT <span>ME</span>
+                  <span>A</span> Propos
                 </h1>
-                <span className="title-bg">Resume</span>
+                <span className="title-bg">Parcours</span>
               </div>
               {/* End title */}
               <AboutMain />
