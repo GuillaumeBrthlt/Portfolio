@@ -43,7 +43,7 @@ const PortfolioData = [
     modalDetails: [
       {
         project: "Site WEB",
-        language: "HTML, CSS, Javascript",
+        language: "HTML, CSS, Javascript, Ruby",
         framework: " Ruby on Rails, Reactjs"
       },
     ],
