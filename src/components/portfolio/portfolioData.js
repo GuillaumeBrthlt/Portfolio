@@ -21,7 +21,7 @@ import Image4_5 from "../../../public/assets/img/portfolio/project-4-5.jpg";
 const PortfolioData = [
   {
     id: 4,
-    name: "Kwot'z",
+    name: "Kwotz",
     image: Image4,
     image_2: Image4_2,
     image_3: Image4_3,

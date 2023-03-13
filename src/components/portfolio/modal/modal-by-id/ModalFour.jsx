@@ -60,7 +60,7 @@ const ModalFour = ({ modalId, setGetModal }) => {
               <div>
                 <p>Description:</p> 
                 <p>
-                  Kwot-z est un projet personnel que j'ai développé dans le but de soulager la charge administrative des professionnels de la réfrigération et de la climatisation.
+                  Kwot-z est un projet personnel que j&apos;ai développé dans le but de soulager la charge administrative des professionnels de la réfrigération et de la climatisation.
                   <br/>
                   Cette application à pour but de faciliter le process de demandes de prix et de dimensionnement des frigoristes auprès de leurs fournisseurs via des formulaires simplifiés.
                   <br/><br/>
