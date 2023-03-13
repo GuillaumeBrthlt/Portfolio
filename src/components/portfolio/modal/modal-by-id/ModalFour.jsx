@@ -35,6 +35,13 @@ const ModalFour = ({ modalId, setGetModal }) => {
                         </span>
                       </div>
                       <div className="col-12 col-sm-6 mb-2">
+                        <i className="fa fa-code pr-2"></i>
+                        Frameworks / librairies :{" "}
+                        <span className="ft-wt-600 uppercase">
+                          {details.framework}
+                        </span>
+                      </div>
+                      <div className="col-12 col-sm-6 mb-2">
                         <i className="fa fa-external-link pr-2"></i>
                         Preview :{" "}
                         <a
@@ -53,13 +60,36 @@ const ModalFour = ({ modalId, setGetModal }) => {
               <div>
                 <p>Description:</p> 
                 <p>
-                  The project will be the final project of the bootcamp &quot;The Hacking Project&quot;.
-                  It will be realized from the 5th of december to the 16th of december.
+                  Kwot-z est un projet personnel que j'ai développé dans le but de soulager la charge administrative des professionnels de la réfrigération et de la climatisation.
+                  <br/>
+                  Cette application à pour but de faciliter le process de demandes de prix et de dimensionnement des frigoristes auprès de leurs fournisseurs via des formulaires simplifiés.
+                  <br/><br/>
+                  Le back-end à été réalisé sur Ruby on Rails et le front-end sur Reactjs. Les mails sont evoyés avec mailjet et les devis sont stockés sur AWS.
                 </p>
               </div>
-              <figure className="modal__img">
+              <figure className="modal__img mb-4">
                 <div>
                   <Image src={item.image} alt="portfolio project demo" />
+                </div>
+              </figure>
+              <figure className="modal__img mb-4">
+                <div>
+                  <Image src={item.image_2} alt="portfolio project demo" />
+                </div>
+              </figure>
+              <figure className="modal__img mb-4">
+                <div>
+                  <Image src={item.image_3} alt="portfolio project demo" />
+                </div>
+              </figure>
+              <figure className="modal__img mb-4">
+                <div>
+                  <Image src={item.image_4} alt="portfolio project demo" />
+                </div>
+              </figure>
+              <figure className="modal__img">
+                <div>
+                  <Image src={item.image_5} alt="portfolio project demo" />
                 </div>
               </figure>
 

@@ -13,8 +13,32 @@ import Image4 from "../../../public/assets/img/portfolio/project-4.jpg";
 import Image5 from "../../../public/assets/img/portfolio/project-5.jpg";
 import Image5_2 from "../../../public/assets/img/portfolio/project-5-2.jpg";
 import Image5_3 from "../../../public/assets/img/portfolio/project-5-3.jpg";
+import Image4_2 from "../../../public/assets/img/portfolio/project-4-2.jpg";
+import Image4_3 from "../../../public/assets/img/portfolio/project-4-3.jpg";
+import Image4_4 from "../../../public/assets/img/portfolio/project-4-4.jpg";
+import Image4_5 from "../../../public/assets/img/portfolio/project-4-5.jpg";
 
 const PortfolioData = [
+  {
+    id: 4,
+    name: "Kwot'z",
+    image: Image4,
+    image_2: Image4_2,
+    image_3: Image4_3,
+    image_4: Image4_4,
+    image_5: Image4_5,
+    delayAnimation: "400",
+    modalDetails: [
+      {
+        project: "application web",
+        language: " HTML, CSS, Javascript, Ruby",
+        framework: " Ruby on Rails, Reactjs",
+        preview: "Kwot-z.fr",
+        link: "https://kwot-z.fr",
+      },
+    ],
+  },
+
   {
     id: 5,
     name: "Real'Immo",
@@ -24,7 +48,7 @@ const PortfolioData = [
     delayAnimation: "0",
     modalDetails: [
       {
-        project: "Site WEB",
+        project: "Application WEB",
         language: "HTML, CSS, Javascript",
         preview: "Real'Immo",
         link: "https://marketplace-mvp-front.vercel.app/",
@@ -81,20 +105,7 @@ const PortfolioData = [
       },
     ],
   },
-  {
-    id: 4,
-    name: "Kwot'z BETA",
-    image: Image4,
-    delayAnimation: "400",
-    modalDetails: [
-      {
-        project: "application web",
-        language: " HTML, CSS, Javascript, Ruby",
-        preview: "",
-        link: "",
-      },
-    ],
-  },
+  
 
 ];
 
